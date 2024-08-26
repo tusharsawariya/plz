@@ -1,0 +1,27 @@
+@media print {
+    body {
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+    }
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+    .slip {
+        border: 1px solid #000;
+        border-radius: 4px;
+        padding: 15px;
+        max-width: 100%;
+        box-shadow: none;
+    }
+    .slip h1 {
+        font-size: 18px;
+    }
+    .slip ul {
+        padding-left: 20px;
+    }
+    .slip p {
+        margin: 0;
+    }
+}

@@ -1,0 +1,62 @@
+/* Navbar */
+.navbar.bg-gradient {
+    background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+    padding: 10px 20px;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.form-control {
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+.btn-outline-light {
+    border: 2px solid white;
+    color: white;
+}
+
+.btn-outline-light:hover {
+    background: white;
+    color: #2575fc;
+    border: 2px solid #2575fc;
+}
+
+/* Offcanvas Menu */
+.offcanvas.offcanvas-end.text-bg-dark {
+    background: #1b1b1b;
+    color: white;
+}
+
+.offcanvas-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.offcanvas-body ul li a.nav-link {
+    color: white;
+}
+
+.offcanvas-body ul li a.nav-link:hover {
+    color: #2575fc;
+}
+
+.dropdown-menu-dark {
+    background: #333;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: #2575fc;
+    color: white;
+}
+
+/* Content Padding */
+.content {
+    padding-top: 100px;
+}
